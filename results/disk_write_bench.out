@@ -1,0 +1,210 @@
+########### SIZE = 1 ###########
+#################################
+1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.0119074 s, 88.1 MB/s
+#################################
+1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.0112299 s, 93.4 MB/s
+#################################
+1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.00510591 s, 205 MB/s
+#################################
+1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.0139106 s, 75.4 MB/s
+#################################
+1+0 records in
+1+0 records out
+1048576 bytes (1.0 MB, 1.0 MiB) copied, 0.0398342 s, 26.3 MB/s
+########### SIZE = 2 ###########
+#################################
+2+0 records in
+2+0 records out
+2097152 bytes (2.1 MB, 2.0 MiB) copied, 0.0723175 s, 29.0 MB/s
+#################################
+2+0 records in
+2+0 records out
+2097152 bytes (2.1 MB, 2.0 MiB) copied, 0.0679252 s, 30.9 MB/s
+#################################
+2+0 records in
+2+0 records out
+2097152 bytes (2.1 MB, 2.0 MiB) copied, 0.0574427 s, 36.5 MB/s
+#################################
+2+0 records in
+2+0 records out
+2097152 bytes (2.1 MB, 2.0 MiB) copied, 0.0490511 s, 42.8 MB/s
+#################################
+2+0 records in
+2+0 records out
+2097152 bytes (2.1 MB, 2.0 MiB) copied, 0.0592727 s, 35.4 MB/s
+########### SIZE = 4 ###########
+#################################
+4+0 records in
+4+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.108484 s, 38.7 MB/s
+#################################
+4+0 records in
+4+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.106105 s, 39.5 MB/s
+#################################
+4+0 records in
+4+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.115307 s, 36.4 MB/s
+#################################
+4+0 records in
+4+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.11195 s, 37.5 MB/s
+#################################
+4+0 records in
+4+0 records out
+4194304 bytes (4.2 MB, 4.0 MiB) copied, 0.1096 s, 38.3 MB/s
+########### SIZE = 8 ###########
+#################################
+8+0 records in
+8+0 records out
+8388608 bytes (8.4 MB, 8.0 MiB) copied, 0.214767 s, 39.1 MB/s
+#################################
+8+0 records in
+8+0 records out
+8388608 bytes (8.4 MB, 8.0 MiB) copied, 0.228975 s, 36.6 MB/s
+#################################
+8+0 records in
+8+0 records out
+8388608 bytes (8.4 MB, 8.0 MiB) copied, 0.221581 s, 37.9 MB/s
+#################################
+8+0 records in
+8+0 records out
+8388608 bytes (8.4 MB, 8.0 MiB) copied, 0.222939 s, 37.6 MB/s
+#################################
+8+0 records in
+8+0 records out
+8388608 bytes (8.4 MB, 8.0 MiB) copied, 0.222508 s, 37.7 MB/s
+########### SIZE = 16 ###########
+#################################
+16+0 records in
+16+0 records out
+16777216 bytes (17 MB, 16 MiB) copied, 0.44433 s, 37.8 MB/s
+#################################
+16+0 records in
+16+0 records out
+16777216 bytes (17 MB, 16 MiB) copied, 0.445427 s, 37.7 MB/s
+#################################
+16+0 records in
+16+0 records out
+16777216 bytes (17 MB, 16 MiB) copied, 0.441919 s, 38.0 MB/s
+#################################
+16+0 records in
+16+0 records out
+16777216 bytes (17 MB, 16 MiB) copied, 0.451785 s, 37.1 MB/s
+#################################
+16+0 records in
+16+0 records out
+16777216 bytes (17 MB, 16 MiB) copied, 0.445335 s, 37.7 MB/s
+########### SIZE = 32 ###########
+#################################
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.890752 s, 37.7 MB/s
+#################################
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.898239 s, 37.4 MB/s
+#################################
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.893053 s, 37.6 MB/s
+#################################
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.894574 s, 37.5 MB/s
+#################################
+32+0 records in
+32+0 records out
+33554432 bytes (34 MB, 32 MiB) copied, 0.891135 s, 37.7 MB/s
+########### SIZE = 64 ###########
+#################################
+64+0 records in
+64+0 records out
+67108864 bytes (67 MB, 64 MiB) copied, 1.78944 s, 37.5 MB/s
+#################################
+64+0 records in
+64+0 records out
+67108864 bytes (67 MB, 64 MiB) copied, 1.78934 s, 37.5 MB/s
+#################################
+64+0 records in
+64+0 records out
+67108864 bytes (67 MB, 64 MiB) copied, 1.78181 s, 37.7 MB/s
+#################################
+64+0 records in
+64+0 records out
+67108864 bytes (67 MB, 64 MiB) copied, 1.78906 s, 37.5 MB/s
+#################################
+64+0 records in
+64+0 records out
+67108864 bytes (67 MB, 64 MiB) copied, 1.79361 s, 37.4 MB/s
+########### SIZE = 128 ###########
+#################################
+128+0 records in
+128+0 records out
+134217728 bytes (134 MB, 128 MiB) copied, 3.5772 s, 37.5 MB/s
+#################################
+128+0 records in
+128+0 records out
+134217728 bytes (134 MB, 128 MiB) copied, 3.57409 s, 37.6 MB/s
+#################################
+128+0 records in
+128+0 records out
+134217728 bytes (134 MB, 128 MiB) copied, 3.58536 s, 37.4 MB/s
+#################################
+128+0 records in
+128+0 records out
+134217728 bytes (134 MB, 128 MiB) copied, 3.57974 s, 37.5 MB/s
+#################################
+128+0 records in
+128+0 records out
+134217728 bytes (134 MB, 128 MiB) copied, 3.57853 s, 37.5 MB/s
+########### SIZE = 256 ###########
+#################################
+256+0 records in
+256+0 records out
+268435456 bytes (268 MB, 256 MiB) copied, 7.15132 s, 37.5 MB/s
+#################################
+256+0 records in
+256+0 records out
+268435456 bytes (268 MB, 256 MiB) copied, 7.16203 s, 37.5 MB/s
+#################################
+256+0 records in
+256+0 records out
+268435456 bytes (268 MB, 256 MiB) copied, 7.16088 s, 37.5 MB/s
+#################################
+256+0 records in
+256+0 records out
+268435456 bytes (268 MB, 256 MiB) copied, 7.15811 s, 37.5 MB/s
+#################################
+256+0 records in
+256+0 records out
+268435456 bytes (268 MB, 256 MiB) copied, 7.15998 s, 37.5 MB/s
+########### SIZE = 512 ###########
+#################################
+512+0 records in
+512+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 14.316 s, 37.5 MB/s
+#################################
+512+0 records in
+512+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 14.3186 s, 37.5 MB/s
+#################################
+512+0 records in
+512+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 14.3184 s, 37.5 MB/s
+#################################
+512+0 records in
+512+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 14.32 s, 37.5 MB/s
+#################################
+512+0 records in
+512+0 records out
+536870912 bytes (537 MB, 512 MiB) copied, 14.3199 s, 37.5 MB/s

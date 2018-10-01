@@ -1,0 +1,534 @@
+ceph-admin@node1:~$ cat radwriteobjout.txt 
+########### SIZE = 1024 ###########
+Maintaining 16 concurrent writes of 1024 bytes to objects of size 1024 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3431
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0       0         0         0         0         0           -           0
+    1      16       258       242  0.236287  0.236328   0.0749773   0.0633084
+    2      16       578       562  0.274373    0.3125   0.0746208   0.0553414
+    3      16       904       888  0.289016  0.318359   0.0399201   0.0530198
+    4      16      1236      1220  0.297805  0.324219   0.0403372   0.0518683
+    5      16      1551      1535   0.29976  0.307617   0.0382511   0.0515525
+    6      16      1867      1851  0.301225  0.308594   0.0387489   0.0514586
+    7      16      2185      2169  0.302551  0.310547   0.0399622   0.0513119
+    8      16      2499      2483  0.303057  0.306641   0.0755795   0.0512699
+    9      16      2810      2794  0.303126  0.303711    0.039377   0.0511796
+   10      16      3138      3122  0.304841  0.320312    0.038195   0.0510056
+Total time run:         10.073728
+Total writes made:      3138
+Write size:             1024
+Object size:            1024
+Bandwidth (MB/sec):     0.304202
+Stddev Bandwidth:       0.0249647
+Max bandwidth (MB/sec): 0.324219
+Min bandwidth (MB/sec): 0.236328
+Average IOPS:           311
+Stddev IOPS:            25
+Max IOPS:               332
+Min IOPS:               242
+Average Latency(s):     0.0512327
+Stddev Latency(s):      0.0212948
+Max latency(s):         0.248473
+Min latency(s):         0.0376669
+########### SIZE = 2048 ###########
+Maintaining 16 concurrent writes of 2048 bytes to objects of size 2048 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3518
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       269       253  0.492513  0.494141   0.0393582   0.0618232
+    2      16       590       574  0.559593  0.626953   0.0386643   0.0553967
+    3      16       908       892  0.580047  0.621094   0.0385412   0.0533489
+    4      16      1242      1226  0.598083  0.652344   0.0389311   0.0518278
+    5      16      1550      1534  0.598762  0.601562   0.0388017   0.0519019
+    6      16      1882      1866  0.607022  0.648438   0.0390458   0.0511961
+    7      16      2207      2191  0.610974  0.634766    0.038529    0.050965
+    8      16      2537      2521  0.615154  0.644531   0.0748786   0.0506096
+    9      16      2859      2843  0.616672  0.628906   0.0391714    0.050501
+   10      16      3176      3160  0.616909  0.619141   0.0747075   0.0504619
+Total time run:         10.067004
+Total writes made:      3177
+Write size:             2048
+Object size:            2048
+Bandwidth (MB/sec):     0.616378
+Stddev Bandwidth:       0.0458326
+Max bandwidth (MB/sec): 0.652344
+Min bandwidth (MB/sec): 0.494141
+Average IOPS:           315
+Stddev IOPS:            23
+Max IOPS:               334
+Min IOPS:               253
+Average Latency(s):     0.0506468
+Stddev Latency(s):      0.0212317
+Max latency(s):         0.302174
+Min latency(s):         0.0376005
+########### SIZE = 4096 ###########
+Maintaining 16 concurrent writes of 4096 bytes to objects of size 4096 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3593
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       268       252  0.983262  0.984375   0.0393507   0.0615725
+    2      16       592       576    1.1243   1.26562   0.0407077   0.0546347
+    3      16       912       896   1.16612      1.25   0.0756065    0.053011
+    4      16      1221      1205   1.17618   1.20703   0.0389095   0.0528025
+    5      16      1540      1524   1.19012   1.24609    0.075257   0.0521869
+    6      16      1849      1833   1.19292   1.20703   0.0824129   0.0521605
+    7      16      2175      2159   1.20439   1.27344   0.0387856   0.0516519
+    8      16      2487      2471   1.20615   1.21875   0.0393261   0.0517205
+    9      16      2805      2789   1.21014   1.24219   0.0780358   0.0515684
+   10      16      3112      3096   1.20903   1.19922   0.0385925   0.0515175
+Total time run:         10.058505
+Total writes made:      3113
+Write size:             4096
+Object size:            4096
+Bandwidth (MB/sec):     1.20894
+Stddev Bandwidth:       0.0831133
+Max bandwidth (MB/sec): 1.27344
+Min bandwidth (MB/sec): 0.984375
+Average IOPS:           309
+Stddev IOPS:            21
+Max IOPS:               326
+Min IOPS:               252
+Average Latency(s):     0.0516796
+Stddev Latency(s):      0.021546
+Max latency(s):         0.297095
+Min latency(s):         0.0377286
+########### SIZE = 8192 ###########
+Maintaining 16 concurrent writes of 8192 bytes to objects of size 8192 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3668
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       279       263   2.04745   2.05469   0.0387467   0.0593811
+    2      16       601       585   2.28093   2.51562   0.0391322   0.0538864
+    3      16       923       907   2.35895   2.51562   0.0414007   0.0524439
+    4      16      1256      1240   2.41943   2.60156   0.0751358   0.0514413
+    5      16      1576      1560   2.43547       2.5   0.0385936   0.0509743
+    6      16      1896      1880   2.44615       2.5   0.0385784   0.0508591
+    7      16      2219      2203   2.45713   2.52344   0.0395642   0.0507082
+    8      16      2539      2523   2.46245       2.5   0.0392659   0.0505564
+    9      16      2861      2845   2.46833   2.51562   0.0743267   0.0504557
+   10      16      3186      3170   2.47536   2.53906   0.0756207   0.0503429
+Total time run:         10.079782
+Total writes made:      3186
+Write size:             8192
+Object size:            8192
+Bandwidth (MB/sec):     2.46936
+Stddev Bandwidth:       0.151266
+Max bandwidth (MB/sec): 2.60156
+Min bandwidth (MB/sec): 2.05469
+Average IOPS:           316
+Stddev IOPS:            19
+Max IOPS:               333
+Min IOPS:               263
+Average Latency(s):     0.0505983
+Stddev Latency(s):      0.0202136
+Max latency(s):         0.297079
+Min latency(s):         0.0376752
+########### SIZE = 16384 ###########
+Maintaining 16 concurrent writes of 16384 bytes to objects of size 16384 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3744
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       265       249   3.88049   3.89062   0.0411763   0.0629767
+    2      16       598       582   4.54071   5.20312   0.0383287   0.0544422
+    3      16       905       889   4.62571   4.79688   0.0411231   0.0534937
+    4      16      1218      1202   4.69174   4.89062   0.0391802   0.0528826
+    5      16      1531      1515   4.73136   4.89062   0.0782732   0.0524749
+    6      16      1859      1843   4.79677     5.125   0.0382879   0.0519037
+    7      16      2163      2147   4.79001      4.75   0.0381313   0.0519897
+    8      16      2489      2473   4.82789   5.09375    0.038414   0.0516334
+    9      16      2793      2777   4.81918      4.75    0.039722   0.0516645
+   10      16      3114      3098   4.83873   5.01562   0.0384506   0.0515063
+Total time run:         10.064715
+Total writes made:      3115
+Write size:             16384
+Object size:            16384
+Bandwidth (MB/sec):     4.83589
+Stddev Bandwidth:       0.370107
+Max bandwidth (MB/sec): 5.20312
+Min bandwidth (MB/sec): 3.89062
+Average IOPS:           309
+Stddev IOPS:            23
+Max IOPS:               333
+Min IOPS:               249
+Average Latency(s):     0.0516657
+Stddev Latency(s):      0.0228342
+Max latency(s):         0.336572
+Min latency(s):         0.0376696
+########### SIZE = 32768 ###########
+Maintaining 16 concurrent writes of 32768 bytes to objects of size 32768 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3824
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       261       245   7.63486   7.65625   0.0750663   0.0632419
+    2      16       577       561   8.75281     9.875   0.0392725   0.0564391
+    3      16       884       868   9.03239   9.59375   0.0753921   0.0548465
+    4      16      1186      1170    9.1333    9.4375     0.07567   0.0541323
+    5      16      1416      1400   8.74416    7.1875   0.0663111   0.0566418
+    6      16      1703      1687   8.78138   8.96875   0.0388747   0.0566439
+    7      16      1993      1977    8.8213    9.0625    0.039435   0.0564956
+    8      16      2316      2300   8.98015   10.0938    0.040654    0.055457
+    9      16      2643      2627   9.11757   10.2188   0.0752317   0.0546584
+   10      16      2939      2923   9.13069      9.25   0.0541913   0.0545834
+Total time run:         10.054413
+Total writes made:      2940
+Write size:             32768
+Object size:            32768
+Bandwidth (MB/sec):     9.13778
+Stddev Bandwidth:       0.998268
+Max bandwidth (MB/sec): 10.2188
+Min bandwidth (MB/sec): 7.1875
+Average IOPS:           292
+Stddev IOPS:            31
+Max IOPS:               327
+Min IOPS:               230
+Average Latency(s):     0.0546815
+Stddev Latency(s):      0.0233271
+Max latency(s):         0.33753
+Min latency(s):         0.0379901
+########### SIZE = 65536 ###########
+Maintaining 16 concurrent writes of 65536 bytes to objects of size 65536 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3899
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       187       171   10.6751   10.6875   0.0414288   0.0894828
+    2      16       400       384   11.9922   13.3125   0.0415755   0.0806578
+    3      16       641       625   13.0145   15.0625   0.0458904   0.0756533
+    4      16       842       826   12.9011   12.5625   0.0936151    0.076764
+    5      16      1026      1010   12.6207      11.5   0.0518559   0.0767881
+    6      16      1232      1216   12.6626    12.875   0.0764279   0.0786599
+    7      16      1422      1406   12.5499    11.875   0.0922127   0.0793929
+    8      16      1580      1564   12.2154     9.875    0.116377    0.081258
+    9      16      1754      1738   12.0663    10.875   0.0411988   0.0826761
+   10      16      1928      1912    11.947    10.875    0.135124   0.0831333
+Total time run:         10.051647
+Total writes made:      1929
+Write size:             65536
+Object size:            65536
+Bandwidth (MB/sec):     11.9943
+Stddev Bandwidth:       1.53456
+Max bandwidth (MB/sec): 15.0625
+Min bandwidth (MB/sec): 9.875
+Average IOPS:           191
+Stddev IOPS:            24
+Max IOPS:               241
+Min IOPS:               158
+Average Latency(s):     0.083345
+Stddev Latency(s):      0.04084
+Max latency(s):         0.40438
+Min latency(s):         0.0388216
+########### SIZE = 131072 ###########
+Maintaining 16 concurrent writes of 131072 bytes to objects of size 131072 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_3977
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16       143       127   15.8521    15.875   0.0945762    0.115807
+    2      16       281       265   16.5492     17.25    0.146574    0.105972
+    3      16       412       396   16.4902    16.375   0.0982457    0.119431
+    4      16       530       514   16.0546     14.75    0.149381    0.121646
+    5      16       664       648   16.1928     16.75    0.141045    0.121396
+    6      16       776       760   15.8269        14    0.272299    0.124278
+    7      16       890       874   15.6014     14.25    0.125343    0.126509
+    8      16      1004       988   15.4323     14.25    0.140123    0.128329
+    9      16      1042      1026   14.2454      4.75    0.254029    0.129022
+   10      16      1104      1088   13.5959      7.75    0.172922    0.139346
+Total time run:         10.240415
+Total writes made:      1105
+Write size:             131072
+Object size:            131072
+Bandwidth (MB/sec):     13.4882
+Stddev Bandwidth:       4.09598
+Max bandwidth (MB/sec): 17.25
+Min bandwidth (MB/sec): 4.75
+Average IOPS:           107
+Stddev IOPS:            32
+Max IOPS:               138
+Min IOPS:               38
+Average Latency(s):     0.147881
+Stddev Latency(s):      0.119582
+Max latency(s):         0.907185
+Min latency(s):         0.0401421
+########### SIZE = 262144 ###########
+Maintaining 16 concurrent writes of 262144 bytes to objects of size 262144 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_4057
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0       0         0         0         0         0           -           0
+    1      16        86        70   17.4962      17.5     0.14814    0.199942
+    2      16       156       140   17.4968      17.5    0.213738    0.210017
+    3      16       229       213   17.7467     18.25    0.244369     0.21746
+    4      16       296       280   17.4969     16.75     0.40868    0.221567
+    5      16       361       345    17.247     16.25    0.166662     0.22388
+    6      16       435       419   17.4553      18.5    0.250838    0.226642
+    7      16       470       454   16.2115      8.75    0.255992    0.228863
+    8      16       501       485   15.1536      7.75    0.265662    0.256425
+    9      16       560       544   15.1085     14.75    0.371331    0.258846
+   10      16       627       611   15.2724     16.75    0.201599    0.258898
+Total time run:         10.230285
+Total writes made:      628
+Write size:             262144
+Object size:            262144
+Bandwidth (MB/sec):     15.3466
+Stddev Bandwidth:       3.85762
+Max bandwidth (MB/sec): 18.5
+Min bandwidth (MB/sec): 7.75
+Average IOPS:           61
+Stddev IOPS:            15
+Max IOPS:               74
+Min IOPS:               31
+Average Latency(s):     0.259916
+Stddev Latency(s):      0.157131
+Max latency(s):         1.22268
+Min latency(s):         0.0427576
+########### SIZE = 524288 ###########
+Maintaining 16 concurrent writes of 524288 bytes to objects of size 524288 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_4132
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0       0         0         0         0         0           -           0
+    1      16        53        37    18.494      18.5    0.296628    0.395024
+    2      16        92        76   18.9951      19.5    0.330724    0.374196
+    3      16       134       118   19.6622        21    0.402534    0.386494
+    4      16       171       155   19.3708      18.5    0.321922    0.381185
+    5      16       216       200   19.9958      22.5    0.679249    0.387803
+    6      16       255       239   19.9127      19.5    0.341748    0.388989
+    7      16       295       279   19.9248        20    0.352112    0.395735
+    8      16       325       309   19.3089        15    0.448608    0.400614
+    9      16       366       350   19.4409      20.5     0.39663    0.403249
+   10      16       406       390   19.4965        20    0.382172    0.403364
+Total time run:         10.420914
+Total writes made:      407
+Write size:             524288
+Object size:            524288
+Bandwidth (MB/sec):     19.528
+Stddev Bandwidth:       1.97203
+Max bandwidth (MB/sec): 22.5
+Min bandwidth (MB/sec): 15
+Average IOPS:           39
+Stddev IOPS:            3
+Max IOPS:               45
+Min IOPS:               30
+Average Latency(s):     0.407071
+Stddev Latency(s):      0.136421
+Max latency(s):         0.836236
+Min latency(s):         0.0889803
+########### SIZE = 1048576 ###########
+Maintaining 16 concurrent writes of 1048576 bytes to objects of size 1048576 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_4223
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16        34        18   17.8296        18    0.507915    0.715423
+    2      16        49        33   16.4198        15    0.713942    0.721354
+    3      16        80        64   21.2629        31    0.776139    0.721186
+    4      16        95        79   19.7003        15    0.775505    0.736246
+    5      16       110        94   18.7615        15    0.690473    0.733564
+    6      16       140       124   20.6308        30    0.761186    0.748925
+    7      16       155       139   19.8271        15    0.761656    0.753706
+    8      16       170       154   19.2241        15    0.775057    0.758769
+    9      16       200       184   20.4196        30    0.819576    0.770745
+   10      16       216       200   19.9778        16    0.832293    0.776298
+Total time run:         10.657007
+Total writes made:      217
+Write size:             1048576
+Object size:            1048576
+Bandwidth (MB/sec):     20.3622
+Stddev Bandwidth:       7.19568
+Max bandwidth (MB/sec): 31
+Min bandwidth (MB/sec): 15
+Average IOPS:           20
+Stddev IOPS:            7
+Max IOPS:               31
+Min IOPS:               15
+Average Latency(s):     0.783479
+Stddev Latency(s):      0.184074
+Max latency(s):         1.57668
+Min latency(s):         0.137613
+ceph-admin@node1:~$ 
+ceph-admin@node1:~$ cat radwriteobjout.txt 
+########### SIZE = 2097152 ###########
+Maintaining 16 concurrent writes of 2097152 bytes to objects of size 2097152 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_15200
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16        16         0         0         0           -           0
+    2      16        25         9   8.99159         9     1.74573     1.40188
+    3      16        42        26   17.0208        34      1.2552     1.72096
+    4      16        50        34   16.7685        16     1.30431     1.62393
+    5      16        54        38   14.8727         8     1.31805     1.59551
+    6      16        71        55   17.6014        34    0.339282      1.6121
+    7      16        78        62   17.1043        14     1.53753     1.57675
+    8      16        88        72   17.2984        20     2.01019     1.61912
+    9      16       106        90   19.2915        36      1.5375      1.5914
+   10      16       107        91   17.6175         2     1.31092     1.58831
+Total time run:         10.635436
+Total writes made:      107
+Write size:             2097152
+Object size:            2097152
+Bandwidth (MB/sec):     20.1214
+Stddev Bandwidth:       13.4002
+Max bandwidth (MB/sec): 36
+Min bandwidth (MB/sec): 0
+Average IOPS:           10
+Stddev IOPS:            6
+Max IOPS:               18
+Min IOPS:               0
+Average Latency(s):     1.57069
+Stddev Latency(s):      0.479867
+Max latency(s):         2.79148
+Min latency(s):         0.339282
+########### SIZE = 4194304 ###########
+Maintaining 16 concurrent writes of 4194304 bytes to objects of size 4194304 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_17412
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      16        16         0         0         0           -           0
+    1      16        16         0         0         0           -           0
+    2      16        16         0         0         0           -           0
+    3      16        26        10   12.7029   13.3333     2.91795     2.25959
+    4      16        28        12   11.4108         8     3.20545     2.41722
+    5      16        42        26   19.9743        56      1.9495     2.92629
+    6      16        43        27   17.4001         4     3.05082      2.9309
+    7      16        48        32   17.7562        20      2.2785     2.82403
+    8      16        51        35   17.0395        12     2.46772      2.8266
+    9      16        55        39   16.9264        16     3.47659     2.89185
+   10      11        56        45   17.6185        24     2.92291     2.90762
+Total time run:         10.653132
+Total writes made:      56
+Write size:             4194304
+Object size:            4194304
+Bandwidth (MB/sec):     21.0267
+Stddev Bandwidth:       16.3933
+Max bandwidth (MB/sec): 56
+Min bandwidth (MB/sec): 0
+Average IOPS:           5
+Stddev IOPS:            4
+Max IOPS:               14
+Min IOPS:               0
+Average Latency(s):     2.94576
+Stddev Latency(s):      1.12077
+Max latency(s):         5.50474
+Min latency(s):         0.614189
+########### SIZE = 8388608 ###########
+Maintaining 16 concurrent writes of 8388608 bytes to objects of size 8388608 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_19273
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0      12        12         0         0         0           -           0
+    1      12        12         0         0         0           -           0
+    2      12        12         0         0         0           -           0
+    3      12        12         0         0         0           -           0
+    4      15        15         0         0         0           -           0
+    5      15        15         0         0         0           -           0
+    6      15        21         6   7.98702         8     5.99446     5.98189
+    7      15        27        12   13.6949        48     6.21302     5.68819
+    8      15        27        12   11.9636         0           -     5.68819
+    9      15        27        12   10.6311         0           -     5.68819
+   10      15        27        12   9.57078         0           -     5.68819
+   11      12        28        16    11.604         8     7.07694     5.77595
+Total time run:         11.268135
+Total writes made:      28
+Write size:             8388608
+Object size:            8388608
+Bandwidth (MB/sec):     19.8791
+Stddev Bandwidth:       14.3514
+Max bandwidth (MB/sec): 48
+Min bandwidth (MB/sec): 0
+Average IOPS:           2
+Stddev IOPS:            1
+Max IOPS:               6
+Min IOPS:               0
+Average Latency(s):     5.97926
+Stddev Latency(s):      1.73109
+Max latency(s):         11.2663
+Min latency(s):         2.08292
+########### SIZE = 16777216 ###########
+Maintaining 16 concurrent writes of 16777216 bytes to objects of size 16777216 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_21575
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0       6         6         0         0         0           -           0
+    1       6         6         0         0         0           -           0
+    2       6         6         0         0         0           -           0
+    3       6         6         0         0         0           -           0
+    4       7         7         0         0         0           -           0
+    5       9         9         0         0         0           -           0
+    6      10        10         0         0         0           -           0
+    7      11        11         0         0         0           -           0
+    8      11        11         0         0         0           -           0
+    9      11        11         0         0         0           -           0
+   10      15        17         2   3.18277       3.2     9.68668     9.68386
+   11      15        17         2   2.89481         0           -     9.68386
+   12      15        17         2   2.65464         0           -     9.68386
+   13      15        17         2   2.45124         0           -     9.68386
+   14      15        17         2   2.27681         0           -     9.68386
+   15       1        18        17   18.0672        48     4.88655     9.65694
+   16       1        18        17   16.9407         0           -     9.65694
+   17       1        18        17   15.9473         0           -     9.65694
+Total time run:         17.312749
+Total writes made:      18
+Write size:             16777216
+Object size:            16777216
+Bandwidth (MB/sec):     16.6351
+Stddev Bandwidth:       11.6191
+Max bandwidth (MB/sec): 48
+Min bandwidth (MB/sec): 0
+Average IOPS:           1
+Stddev IOPS:            0
+Max IOPS:               3
+Min IOPS:               0
+Average Latency(s):     9.54404
+Stddev Latency(s):      3.75425
+Max latency(s):         14.5148
+Min latency(s):         4.88655
+########### SIZE = 33554432 ###########
+Maintaining 16 concurrent writes of 33554432 bytes to objects of size 33554432 for up to 10 seconds or 0 objects
+Object prefix: benchmark_data_node1_25143
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+    0       3         3         0         0         0           -           0
+    1       3         3         0         0         0           -           0
+    2       3         3         0         0         0           -           0
+    3       3         3         0         0         0           -           0
+    4       3         3         0         0         0           -           0
+    5       3         3         0         0         0           -           0
+    6       3         3         0         0         0           -           0
+    7       6         6         0         0         0           -           0
+    8       6         6         0         0         0           -           0
+    9       6         6         0         0         0           -           0
+   10       6         6         0         0         0           -           0
+   11       8         8         0         0         0           -           0
+   12       8         8         0         0         0           -           0
+   13       8         8         0         0         0           -           0
+   14       8         8         0         0         0           -           0
+   15       8         8         0         0         0           -           0
+   16      11        11         0         0         0           -           0
+   17      11        11         0         0         0           -           0
+   18      11        11         0         0         0           -           0
+   19      12        12         0         0         0           -           0
+2018-09-30 22:21:32.757445 min lat: 9999 max lat: 0 avg lat: 0
+  sec Cur ops   started  finished  avg MB/s  cur MB/s last lat(s)  avg lat(s)
+   20      12        12         0         0         0           -           0
+   21      12        12         0         0         0           -           0
+   22      12        12         0         0         0           -           0
+   23      12        12         0         0         0           -           0
+   24      13        13         0         0         0           -           0
+   25      14        14         0         0         0           -           0
+   26      14        14         0         0         0           -           0
+   27      15        15         0         0         0           -           0
+   28       3        16        13   14.7388   14.8571     8.66244     19.6213
+   29       3        16        13   14.2191         0           -     19.6213
+   30       2        16        14   14.8067        16      6.7441     18.7015
+   31       2        16        14    14.333         0           -     18.7015
+   32       1        16        15   14.8806        16     7.65924     17.9653
+   33       1        16        15   14.4331         0           -     17.9653
+Total time run:         34.020398
+Total writes made:      16
+Write size:             33554432
+Object size:            33554432
+Bandwidth (MB/sec):     15.0498
+Stddev Bandwidth:       4.56276
+Max bandwidth (MB/sec): 16
+Min bandwidth (MB/sec): 0
+Average IOPS:           0
+Stddev IOPS:            0
+Max IOPS:               0
+Min IOPS:               0
+Average Latency(s):     17.269
+Stddev Latency(s):      8.00997
+Max latency(s):         27.8165
+Min latency(s):         6.7441
+ceph-admin@node1:~$ 
+

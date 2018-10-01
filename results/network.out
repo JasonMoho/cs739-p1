@@ -1,0 +1,11 @@
+ADMIN -> NODE1 SAME LOCATION
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  1.13 GBytes   974 Mbits/sec
+
+ADMIN -> NODE2 CENTRAL->EAST COAST
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec   788 MBytes   661 Mbits/sec
+
+ADMIN -> NODE3 SAME LOCATION
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0-10.0 sec  1.14 GBytes   976 Mbits/sec
