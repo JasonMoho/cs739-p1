@@ -3,8 +3,11 @@ import matplotlib.pyplot as plt
 import collections
 import numpy as np
 
-file_seq = open("results/rados_bench_seq.out")
-file_rand = open("results/rados_bench_rand.out")
+# file_seq = open("results/rados_bench_seq.out")
+# file_rand = open("results/rados_bench_rand.out")
+
+file_seq = open("results/aff_seq_bench.out")
+file_rand = open("results/aff_rand_bench.out")
 
 seq_throughput = {}
 seq_throughput_std = {}
@@ -65,17 +68,16 @@ rand_latency_std = od.values()
 plt.plot(sizes, seq_throughput, "r",  marker='o', linestyle='dashed', label = "SEQ")
 plt.plot(sizes, rand_throughput, "b",  marker='o', linestyle='dashed', label = "RAND")
 plt.legend()
-plt.title("Ceph Read Throughput for Varying Read Sizes")
+plt.title("Adjusted AFF 2 SSDs 1 PERS: Ceph Read Throughput for Varying Read Sizes")
 plt.xscale('log', basex=2)
 plt.xlabel("Read Size (Bytes)")
 plt.ylabel("Throughput (MB/s)")
 plt.show()
 plt.plot(sizes, seq_latency, "r",  marker='o', linestyle='dashed', label = "SEQ")
 plt.plot(sizes, rand_latency, "b",  marker='o', linestyle='dashed', label = "RAND")
-plt.title("Ceph Read Latency for Varying Read Sizes")
+plt.title("Adjusted AFF 2 SSDs 1 PERS: Ceph Read Latency for Varying Read Sizes")
 plt.legend()
 plt.xscale('log', basex=2)
-plt.yscale('log', basex=2)
 plt.xlabel("Read Size (Bytes)")
 plt.ylabel("Latency (S)")
 plt.show()

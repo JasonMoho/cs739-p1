@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import collections
 import numpy as np
 
-file = open("results/rados_bench_write.out")
+# file = open("results/rados_bench_write.out")
+
+file = open("results/hetero_write_bench.out")
 
 write_throughput = {}
 write_throughput_std = {}
@@ -34,21 +36,22 @@ od = collections.OrderedDict(sorted(write_latency_std.items()))
 write_latency_std = od.values()
 
 plt.errorbar(sizes, write_throughput, fmt="ro", yerr=write_throughput_std, linestyle='dashed',markersize=10)
-plt.title("Ceph Write Throughput for Varying Write Sizes")
+plt.title("2 SSDs 1 PERS: Ceph Write Throughput for Varying Write Sizes")
 plt.xscale('log', basex=2)
 plt.xlabel("Write Size (Bytes)")
+plt.ylim([0,180])
 plt.ylabel("Throughput (MB/s)")
 plt.show()
 
 plt.errorbar(sizes, write_latency, fmt="bo", yerr=write_latency_std, linestyle='dashed',markersize=10)
-plt.title("Ceph Write Latency for Varying Write Sizes")
+plt.title("2 SSDs 1 PERS: Ceph Write Latency for Varying Write Sizes")
 plt.xscale('log', basex=2)
 plt.xlabel("Write Size (Bytes)")
 plt.ylabel("Latency (S)")
 plt.show()
 
 plt.errorbar(sizes, write_latency, fmt="bo", yerr=write_latency_std,linestyle='dashed',markersize=10)
-plt.title("Ceph Write Latency for Varying Write Sizes")
+plt.title("3 SSDs: Ceph Write Latency for Varying Write Sizes")
 plt.xscale('log', basex=2)
 plt.yscale('log', basex=2)
 plt.xlabel("Write Size (Bytes)")
